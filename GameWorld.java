@@ -10,9 +10,9 @@ public class GameWorld extends World
         super(800, 480, 1, false);
         // Reset the timer
         appleTimer.mark();
-        // Instantiate a pointer
+        // Create a pointer instance
         Pointer pointer = new Pointer();
-        // Add pointer to the screen
+        // Add pointer to the world
         addObject(pointer, -10, -10);
     }
     
