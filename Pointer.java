@@ -15,5 +15,6 @@ public class Pointer extends Actor
             int y = info.getY();
             setLocation(x, y);
         }
+        
     }
 }

@@ -2,15 +2,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class GameWorld extends World
 {
-
     SimpleTimer appleTimer = new SimpleTimer();
     
     public GameWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 480, 1, false);
+        // Reset the timer
         appleTimer.mark();
+        // Instantiate a pointer
         Pointer pointer = new Pointer();
+        // Add pointer to the screen
         addObject(pointer, -10, -10);
     }
     
